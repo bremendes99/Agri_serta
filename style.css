@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    font-size: 15px;
+    font-size: 105px;
     }
     .cabecalho_titulo{
     display: inline;
@@ -31,7 +31,7 @@ body{
         justify-content: space-around;
         align-items:center;
         margin: 20px;
-        border-radius: 40px;
+        border-radius: 10px;
     }
 
     p.fotos_div-paragrafo{
