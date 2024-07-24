@@ -1,80 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Agrinho</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <h1 class="cabecalho_titulo"><img class="cabecalho_imagem" src="logoescola.png" alt="logoescola"></h1>
-         <div>
-         <h2>Colégio Estadual Cecília Meireles - Ensino Médio, Normal e Profissional</h2>
-         
-         </div>
-    </header>
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
-    <main>
-         
-         <section class="escola">
-            <p class="escola_paragrafo">     O colégio se localiza na cidade de Sertaneja - PR</p>
-            <img class="escola_imagem" src="FOTO.png" alt="Colégio Estadual Cecília Meireles - E. M. N. P.">
+body{
+    background-color: #C6FFD2;
+    font-family: 'Sono', sans-serif;
+    }
 
-        </section>
+    .cabecalho{
+    background-color: #5FE56D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 15px;
+    }
+    .cabecalho_titulo{
+    display: inline;
+    }
 
-        <section class="professores">
+    .cabecalho_imagem{
+    width: 201px;
+    height:195px;
+    }
 
-          <div class="professores_div">
-            <img class="professores_div-imagem" src="foto_brenda.jpeg" alt="foto do professor">
-            <h2 class="professores_div-titulo">Brenda Anselmo Mendes</h2>
-            <p class="professores_div-paragrafo">Matemática
-              Itinerários Formativos
-              PMA
-              Pensamento Computacional</p>
-          </div>
+    .cidade{
+        display: flex;
+        background-color: #87EC91;
+        justify-content: space-around;
+        align-items:center;
+        margin: 20px;
+        border-radius: 40px;
+    }
 
-          <div class="professores_div">
-            <img class="professores_div-imagem" src="foto_brenda.jpeg" alt="foto do professor">
-            <h2 class="professores_div-titulo">Brenda Anselmo Mendes</h2>
-            <p class="professores_div-paragrafo">Matemática
-              Itinerários Formativos
-              PMA
-              Pensamento Computacional</p>
-          </div>
+    p.professores_div-paragrafo{
+        width: 112px;
+    }
 
-          <div class="professores_div">
-            <img class="professores_div-imagem" src="foto_brenda.jpeg" alt="foto do professor">
-            <h2 class="professores_div-titulo">Brenda Anselmo Mendes</h2>
-            <p class="professores_div-paragrafo">Matemática
-              Itinerários Formativos
-              PMA
-              Pensamento Computacional</p>
-          </div>
+    .professores{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        background-color: #6AE37D;
+        justify-items: center;
+        gap:50px;
+        margin: 1%;
+        padding: 1%;
+    }
+   
+    .professores_div-imagem{
+        width: 112px;
+        height: 120px;
+    }
+    
+    .rodape{
+        background-color: ##C6FFD2;
+    }
 
-          <div class="professores_div">
-            <img class="professores_div-imagem" src="foto_brenda.jpeg" alt="foto do professor">
-            <h2 class="professores_div-titulo">Brenda Anselmo Mendes</h2>
-            <p class="professores_div-paragrafo">Matemática
-              Itinerários Formativos
-              PMA
-              Pensamento Computacional</p>
-          </div>
-
-        </section>
-
-      
-
-    </main>
-
-    <footer class="rodape">
-      <p>
-        Rua Monsenhor Celso, 416
-      </p>
-    </footer>
-</body>
-</html>
+    p.rodape{
+        display:block;
+    }
