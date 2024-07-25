@@ -45,7 +45,7 @@ body{
     }
 
     .fotos_div-titulo {
-        justify-items: center;
+        align-items:center;
     }
 
     .fotos{
