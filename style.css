@@ -27,7 +27,7 @@ body{
 
     .cidade{
         display: flex;
-        background-color: #87EC91;
+        background-color: #5fd3e5;
         justify-content: space-around;
         align-items:center;
         margin: 20px;
@@ -40,10 +40,11 @@ body{
 
     .fotos{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        background-color: #6AE37D;
+        background-color: #5fd3e5;
         justify-items: center;
+        border-radius: 10px;
         gap:50px;
         margin: 1%;
         padding: 1%;
@@ -55,7 +56,7 @@ body{
     }
     
     .rodape{
-        background-color: ##C6FFD2;
+        background-color:#5fd3e5;
     }
 
     p.rodape{
