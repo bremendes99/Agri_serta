@@ -50,15 +50,15 @@ body{
         grid-template-rows: auto;
         background-color: #5fd3e5;
         justify-items: center;
-        border-radius: 10px;
         gap:50px;
         margin: 1%;
         padding: 1%;
-    }
+    } 
    
     .fotos_div-imagem{
         width: 224px;
         height: 220px;
+        border-radius: 10px;
     }
     
     .rodape{
