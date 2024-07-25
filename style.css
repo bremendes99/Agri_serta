@@ -54,6 +54,7 @@ body{
         grid-template-rows: auto;
         background-color: #5fd3e5;
         justify-items: center;
+        align-items: center;
         gap:50px;
         margin: 1%;
         padding: 1%;
