@@ -38,6 +38,7 @@ body{
     p.fotos_div-paragrafo{
         width: 224px;
         justify-items:flex;
+        text-align: justify;
     }
 
     .fotos_div-titulo{
