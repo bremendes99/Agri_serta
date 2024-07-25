@@ -40,7 +40,7 @@ body{
 
     .fotos{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         background-color: #5fd3e5;
         justify-items: center;
