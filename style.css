@@ -43,7 +43,7 @@ body{
     }
 
     .fotos_div-titulo{
-        justify-items: center;
+        text-align: center;
     }
 
     .fotos_div-titulo {
