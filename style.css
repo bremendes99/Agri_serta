@@ -56,8 +56,8 @@ body{
     } 
    
     .fotos_div-imagem{
-        width: 224px;
-        height: 280px;
+        width: 280px;
+        height: 224px;
         border-radius: 10px;
     }
     
