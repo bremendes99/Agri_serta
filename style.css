@@ -30,7 +30,7 @@ body{
         display: flex;
         background-color: #5fd3e5;
         justify-content: space-around;
-        align-items:center;
+        align-items:normal;
         margin: 20px;
         border-radius: 10px;
     }
