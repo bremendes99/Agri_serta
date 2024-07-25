@@ -4,12 +4,12 @@
 }
 
 body{
-    background-color: #C6FFD2;
+    background-color: #c6feff;
     font-family: 'Sono', sans-serif;
     }
 
     .cabecalho{
-    background-color: #5FE56D;
+    background-color: #5fd3e5;
     display: flex;
     justify-content: space-around;
     align-items: center; 
