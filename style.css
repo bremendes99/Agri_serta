@@ -37,11 +37,11 @@ body{
 
     p.fotos_div-paragrafo{
         width: 224px;
-        justify-items: center;
+        justify-items:flex;
     }
 
     .fotos_div-titulo{
-        justify-items: center;
+        justify-content: center;
     }
 
     .fotos_div-titulo {
