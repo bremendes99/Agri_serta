@@ -44,6 +44,10 @@ body{
         justify-items: center;
     }
 
+    .fotos_div-titulo {
+        justify-items: center;
+    }
+
     .fotos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
